@@ -88,7 +88,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qti.games.gt.prof=1 \
     vendor.perf.gestureflingboost.enable=true \
     vendor.perf.workloadclassifier.enable=true
-    
+
 # RCS and IMS
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.rcs.supported=0 \
@@ -97,13 +97,32 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     DEVICE_PROVISIONED=1 \
+    persist.vendor.radio.add_power_save=1 \
+    persist.vendor.ims.dropset_feature=0 \
     persist.vendor.radio.atfwd.start=true \
     persist.vendor.radio.flexmap_type=none \
     persist.vendor.radio.force_on_dc=true \
     persist.vendor.radio.redir_party_num=1 \
     persist.vendor.radio.report_codec=1 \
     ril.subscription.types=NV,RUIM \
-    ro.telephony.default_network=22,22 \
+    ro.telephony.default_network=9,9 \
+    persist.radio.data_ltd_sys_ind=1 \
+    persist.radio.ignore_dom_time=10 \
+    persist.radio.rat_on=combine \
+    persist.radio.RATE_ADAPT_ENABLE=1 \
+    persist.radio.ROTATION_ENABLE=1 \
+    persist.radio.VT_ENABLE=1 \
+    persist.radio.VT_HYBRID_ENABLE=1 \
+    persist.radio.is_wps_enabled=true \
+    persist.radio.videopause.mode=1 \
+    persist.radio.sap_silent_pin=1 \
+    persist.radio.always_send_plmn=true \
+    persist.rcs.supported=1 \
+    persist.dbg.ims_volte_enable=1 \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.vt_avail_ovr=1 \
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.radio.calls.on.ims=1 \
     telephony.lteOnCdmaDevice=1
 
 # SSR
