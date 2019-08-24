@@ -61,6 +61,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_backpressure=1 \
     debug.sf.enable_hwc_vds=1 \
+    debug.gralloc.gfx_ubwc_disable=0 \
+    vendor.video.disable.ubwc=1 \
     sdm.debug.disable_inline_rotator=1 \
     sdm.debug.disable_inline_rotator_secure=1
 

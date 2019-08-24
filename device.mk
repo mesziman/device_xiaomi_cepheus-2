@@ -178,3 +178,25 @@ PRODUCT_PACKAGES += \
 	
 PRODUCT_PACKAGES += \
     vndk_package
+
+#wfd
+PRODUCT_PACKAGES += \
+    libnl \
+    WfdService \
+    WfdCommon
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon 
+
+# locations
+PRODUCT_PACKAGES += \
+    com.qti.location.sdk
+
+#QTI Performance
+PRODUCT_PACKAGES += \
+    QPerformance \
+    UxPerformance
+
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
