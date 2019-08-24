@@ -3,3 +3,7 @@ soong_namespace {
 subdirs = [
     "lights"
 ]
+hidl_package_root {
+    name: "vendor.xiaomi",
+    path: "device/xiaomi/cepheus/interfaces",
+}

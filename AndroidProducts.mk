@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_cepheus.mk
+    $(LOCAL_DIR)/lineage_cepheus.mk
 
 COMMON_LUNCH_CHOICES := \
-	    syberia_cepheus-user \
-			syberia_cepheus-userdebug \
-			syberia_cepheus-eng
+    lineage_cepheus-user \
+    lineage_cepheus-userdebug \
+    lineage_cepheus-eng
