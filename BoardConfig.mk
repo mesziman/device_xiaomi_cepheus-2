@@ -103,6 +103,9 @@ TARGET_USES_LM := true
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 
+# NFC
+TARGET_USES_NQ_NFC := true
+
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
