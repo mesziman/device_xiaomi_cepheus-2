@@ -176,16 +176,10 @@ PRODUCT_PACKAGES += \
 
 #wfd
 PRODUCT_PACKAGES += \
-    libnl \
-    WfdService \
-    WfdCommon
+    libnl 
 
 PRODUCT_BOOT_JARS += \
     WfdCommon 
-
-# locations
-PRODUCT_PACKAGES += \
-    com.qti.location.sdk
 
 #QTI Performance
 PRODUCT_PACKAGES += \
