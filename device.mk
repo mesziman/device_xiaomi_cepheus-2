@@ -38,7 +38,8 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio.a2dp.default
+    audio.a2dp.default \
+    libaacwrapper
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:system/etc/audio_effects.xml \
@@ -179,13 +180,6 @@ PRODUCT_PACKAGES += \
     libnl 
 
 PRODUCT_BOOT_JARS += \
-    WfdCommon 
-
-#QTI Performance
-PRODUCT_PACKAGES += \
     QPerformance \
-    UxPerformance
-
-PRODUCT_BOOT_JARS += \
-    QPerformance \
+    WfdCommon \
     UxPerformance
