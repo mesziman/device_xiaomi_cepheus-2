@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common BeastROMs stuff.
 $(call inherit-product, vendor/aosp/common.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 2280
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_cepheus
