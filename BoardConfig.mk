@@ -53,7 +53,8 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_VERSION := 9.0.5
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := cepheus_defconfig
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-
+#TARGET_KERNEL_CROSS_COMPILE_PREFIX := /root/gcc-8.1.0-nolibc/aarch64-linux/bin/aarch64-linux-
+TARGET_KERNEL_CROSS_COMPILE_PREFIX :=  aarch64-linux-gnu-
 TARGET_KERNEL_SOURCE := kernel/xiaomi/cepheus
 #KERNEL_CLANG_TRIPLE := aarch64-linux-
 # Platform
