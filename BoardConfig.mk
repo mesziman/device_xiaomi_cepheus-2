@@ -58,7 +58,8 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/cepheus
 #TARGET_KERNEL_CROSS_COMPILE_PREFIX :=  aarch64-linux-gnu-
 #KERNEL_CLANG_TRIPLE := aarch64-linux-
 # Platform
-#TARGET_BOARD_PLATFORM := msmnile
+
+TARGET_BOARD_PLATFORM := msmnile
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno640
 
 TARGET_USES_ION := true
