@@ -73,7 +73,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     sys.displayfeature_hidl=true \
     sys.displayfeature.hbm.enable=true \
     persist.displayfeature.dc_backlight.enable=false \
-    persist.fod.modified.dc_status=false \
+    persist.fod.modified.dc_status=false \    
+    vendor.display.enable_default_color_mode=1 \
+    vendor.display.enable_optimize_refresh=1 
 	
 # Display post-processing
 PRODUCT_PROPERTY_OVERRIDES += \
