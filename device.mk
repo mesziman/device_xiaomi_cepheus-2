@@ -144,7 +144,7 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 	
-PRODUCT_BOOT_JARS += \
+#PRODUCT_BOOT_JARS += \
     com.nxp.nfc.nq
 	
 # OTA
@@ -152,9 +152,6 @@ PRODUCT_PACKAGES += \
     Updates
 	
 # Perf boot jars
-PRODUCT_BOOT_JARS += \
-    QPerformance \
-    UxPerformance
 
 # Power
 PRODUCT_PACKAGES += \
