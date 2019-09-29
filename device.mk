@@ -143,7 +143,9 @@ PRODUCT_PACKAGES += \
     NQNfcNci \
     SecureElement \
     Tag
-	
+
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/nxp/opensource/sn100x
 #PRODUCT_BOOT_JARS += \
     com.nxp.nfc.nq
 	
