@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/syberia/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
-
+PRODUCT_PROPERTY_OVERRIDES += ro.product.device=cepheus
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := syberia_cepheus
 PRODUCT_DEVICE := cepheus
