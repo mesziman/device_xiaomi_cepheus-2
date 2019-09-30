@@ -35,12 +35,12 @@
  },
  {
    "repository" : "LineageOS/android_vendor_nxp_opensource_halimpl",
-   "target_path": "vendor/nxp/opensource/halimpl",
+   "target_path": "vendor/nxp/opensource/sn100x/halimpl",
    "branch"     : "lineage-17.0-sn100x"
  },
  {
    "repository" : "LineageOS/android_vendor_nxp_opensource_hidlimpl",
-   "target_path": "vendor/nxp/opensource/hidlimpl",
+   "target_path": "vendor/nxp/opensource/sn100x/hidlimpl",
    "branch"     : "lineage-17.0-sn100x"
  }
 ]
