@@ -18,24 +18,20 @@ framework/vendor.xiaomi.hardware.misys-V2.0-java.jar
 framework/vendor.xiaomi.hardware.mtdservice-V1.0-java.jar
 framework/vendor.xiaomi.hardware.mtdservice-V1.1-java.jar
 framework/vendor.xiaomi.hardware.vsimapp-V1.0-java.jar
-framework/qcnvitems.jar
 etc/sysconfig/qti_whitelist.xml
 etc/permissions/privapp-permissions-com.qualcomm.location.xml
-
+lib64/libdiag_system.so
+lib/libdiag_system.so
 lib/liblocationservice_jni.so
 lib64/liblocationservice_jni.so
-lib/extractors/libmmparser.so
 lib/libmmosal.so
 lib/libmmrtpdecoder.so
 lib/libmmrtpencoder.so
-lib/librcc.so
-lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so
-lib64/extractors/libmmparser.so
+lib64/extractors/libmmparserextractor.so
+lib64/extractors/libmmparserextractor.so
 lib64/libmmosal.so
 lib64/libmmrtpdecoder.so
 lib64/libmmrtpencoder.so
-lib64/librcc.so
-lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 priv-app/com.qualcomm.location/com.qualcomm.location.apk
 product/app/QtiTelephonyService/QtiTelephonyService.apk
 product/app/uceShimService/uceShimService.apk
@@ -98,7 +94,6 @@ product/lib/com.qualcomm.qti.imscmservice@2.1.so
 product/lib/com.qualcomm.qti.imscmservice@2.2.so
 product/lib/com.qualcomm.qti.uceservice@2.0.so
 product/lib/com.qualcomm.qti.uceservice@2.1.so
-product/lib/com.qualcomm.qti.wifidisplayhal@1.0.so
 product/lib/lib-imsvideocodec.so
 product/lib/lib-imsvt.so
 product/lib/lib-imsvtextutils.so
@@ -186,7 +181,6 @@ product/lib64/com.qualcomm.qti.imscmservice@2.1.so
 product/lib64/com.qualcomm.qti.imscmservice@2.2.so
 product/lib64/com.qualcomm.qti.uceservice@2.0.so
 product/lib64/com.qualcomm.qti.uceservice@2.1.so
-product/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so
 product/lib64/lib-imsvideocodec.so
 
 product/lib64/lib-imsvt.so
