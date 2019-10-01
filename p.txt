@@ -6,6 +6,9 @@ etc/permissions/com.qualcomm.location.xml
 etc/permissions/com.qualcomm.qti.imscmservice.xml
 product/app/QtiSystemService/QtiSystemService.apk
 product/app/datastatusnotification/datastatusnotification.apk
+product/lib64/libdisplayconfig.so
+product/lib64/libdisplayfeature.so
+product/lib64/libdisplayfeatureservice.so
 
 etc/permissions/izat.xt.srv.xml
 etc/permissions/qti_libpermissions.xml
