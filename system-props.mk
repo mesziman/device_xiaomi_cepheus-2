@@ -74,6 +74,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     sys.displayfeature.hbm.enable=true \
     persist.displayfeature.dc_backlight.enable=false \
     persist.fod.modified.dc_status=false \
+    vendor.display.enable_default_color_mode=1 \
+    vendor.display.enable_optimize_refresh=1
 	
 # Display post-processing
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -82,7 +84,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg \
     ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg \
     ro.vendor.display.sensortype=2
-	
+
+# HDR props from qcom/display/config
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.has_wide_color_display=true \
+    ro.surface_flinger.has_HDR_display=true \
+    ro.surface_flinger.wcg_composition_dataspace=143261696
+    
 # HWUI
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapstartsize=8m \
