@@ -57,10 +57,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libbthost_if
 	
-# Bluetooth
-PRODUCT_PACKAGES += \
-    BluetoothResCommon
-
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
