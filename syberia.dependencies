@@ -1,6 +1,6 @@
 [
  {
-   "repository" : "BeastRoms-Devices/kernel_xiaomi_cepheus",
+   "repository" : "mesziman/kernel_xiaomi_cepheus",
    "target_path": "kernel/xiaomi/cepheus",
    "branch"     : "pie"
  },
