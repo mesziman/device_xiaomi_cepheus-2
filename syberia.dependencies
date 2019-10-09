@@ -7,7 +7,7 @@
  {
    "repository" : "mesziman/vendor_xiaomi_cepheus-1",
    "target_path": "vendor/xiaomi/cepheus",
-   "branch"     : "q"
+   "branch"     : "q2"
  },
  {
    "repository" : "mesziman/hardware_qcom_display-caf_sm8150",
@@ -42,5 +42,10 @@
    "repository" : "LineageOS/android_vendor_nxp_opensource_hidlimpl",
    "target_path": "vendor/nxp/opensource/sn100x/hidlimpl",
    "branch"     : "lineage-17.0-sn100x"
+ },
+ {
+   "repository": "LineageOS/android_packages_resources_devicesettings",
+   "target_path": "packages/resources/devicesettings",
+   "branch": "lineage-17.0"
  }
 ]
