@@ -62,6 +62,7 @@ TARGET_KERNEL_CONFIG := cepheus_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/cepheus
 endif
 # Platform
+BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := msmnile
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno640
 
@@ -109,7 +110,6 @@ DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 
 # NFC
 TARGET_USES_NQ_NFC := true
-BOARD_USES_QCOM_HARDWARE := true
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
