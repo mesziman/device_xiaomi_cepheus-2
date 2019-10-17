@@ -125,11 +125,6 @@ BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
 
 TARGET_USERIMAGES_USE_EXT4 := true
 
-BOARD_ROOT_EXTRA_SYMLINKS := \
-    /mnt/vendor/persist:/persist \
-    /vendor/bt_firmware:/bt_firmware \
-    /vendor/dsp:/dsp \
-    /vendor/firmware_mnt:/firmware
 
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_USES_MKE2FS := true
