@@ -58,7 +58,7 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     libbthost_if
-	
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
@@ -72,15 +72,13 @@ PRODUCT_PACKAGES += \
     cneapiclient \
     com.quicinc.cne \
     services-ext
-	
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
 
 # Display
 PRODUCT_PACKAGES += \
-    libdisplayconfig \
-    libqdMetaData.system \
     libvulkan
 
 # Fingerprint
