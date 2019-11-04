@@ -63,10 +63,10 @@ TARGET_KERNEL_CONFIG := cepheus_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/cepheus
 endif
 # Platform
-#BOARD_USES_QCOM_HARDWARE := true
+BOARD_USES_QCOM_HARDWARE := true
 BUILD_WITHOUT_VENDOR := true
 
-#TARGET_BOARD_PLATFORM := msmnile
+TARGET_BOARD_PLATFORM := sm8150
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno640
 
 # APEX

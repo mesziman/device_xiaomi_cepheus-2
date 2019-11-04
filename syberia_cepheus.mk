@@ -19,12 +19,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/cepheus/device.mk)
 
 # Inherit some common Syberia stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/syberia/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_PROPERTY_OVERRIDES += ro.product.device=cepheus
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_cepheus
+PRODUCT_NAME := syberia_cepheus
 PRODUCT_DEVICE := cepheus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9
